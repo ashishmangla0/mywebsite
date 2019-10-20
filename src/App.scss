@@ -1,7 +1,40 @@
 .container{
  max-width:1140px;
+ width: 100%;
+ padding-right: 15px;
+ padding-left: 15px;
+ margin-right: auto;
+ margin-left: auto;
+ display: flex;
 }
 .header{
+  padding: 15px  0 ;
+
+  &__nav{
+    display: flex;
+    margin-left: auto;
+
+&-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+&-item{
+  display: inline-block;
+}
+
+&-link{
+  padding: 10px;
+}
+
+
+  }
+
+
+  &__logo-link{
+    display: flex;
+  }
 
 
    &__container{

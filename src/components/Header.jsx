@@ -1,18 +1,11 @@
 import React from 'react';
-import Logo from './Logo';
-const Header = () =>{
-    return(
+const Header = (props) => {
+    return (
         <>
             <header className="header">
-                <div className="header__container">
-                        this is headaer
-                        <Logo  alt="aaaaa"/>
-                </div>
-
-            </header>
+                    {props.children}
+               </header> 
         </>
     )
-
-
 }
 export default Header;
