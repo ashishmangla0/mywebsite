@@ -11,7 +11,7 @@ function App() {
 <Header>
     <Container>
       <NavbarBrand href="/">
-        <Logo text="udemy" />
+        <Logo text="udemy" logoLink="./public/logo1.png"/>
       </NavbarBrand>
     </Container>
 
