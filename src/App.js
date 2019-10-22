@@ -10,8 +10,8 @@ function App() {
     <>
 <Header>
     <Container>
-      <NavbarBrand href="/">
-        <Logo text="udemy" logoLink="./public/logo1.png"/>
+      <NavbarBrand href="/" className="Header__navbar" >
+        <Logo text="udemy" logoLink="logo1.png" className="header__Logo"/>
       </NavbarBrand>
     </Container>
 
@@ -21,22 +21,7 @@ function App() {
     this is container
   </Container>
 </section>
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
     </> 
   );
 }

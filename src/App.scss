@@ -10,9 +10,19 @@
 .header{
   padding: 15px  0 ;
 
+  &__Logo{
+
+    width:200px;
+  
+  }
+
   &__nav{
     display: flex;
     margin-left: auto;
+
+
+
+    
 
 &-list{
   margin: 0;
