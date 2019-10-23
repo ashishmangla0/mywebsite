@@ -9,7 +9,7 @@ import Logo from './components/Logo';
 
 function App() {
   
-  const [showText, setShowText] = useState(false);
+  const [showText, setShowText] = useState(true);
   const aa = () =>{
     setShowText(!showText);
   }
