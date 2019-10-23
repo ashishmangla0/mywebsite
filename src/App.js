@@ -19,7 +19,7 @@ function App() {
       <Header>
         <Container>
           <NavbarBrand href="/" className="Header__navbar" >
-            <Logo text="udemy" logoLink="images/logo.png" className="header__Logo" />
+            <Logo text="udemy" logoLink="logo.png" className="header__Logo" />
           </NavbarBrand>
           <nav className="ml-auto">
               <ul className="navbar-nav">
