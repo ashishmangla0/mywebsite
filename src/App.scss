@@ -7,8 +7,18 @@
  margin-left: auto;
  display: flex;
 }
+.container{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
 .header{
-  padding: 15px  0 ;
+  padding: 5px  0 ;
 
   &__Logo{
 
@@ -50,4 +60,25 @@
    &__container{
      @extend .container;
    }
+}
+
+
+
+.navbar-nav li{
+
+ display: inline-block;
+
+}
+.navbar-nav li a{
+
+  padding: 5px 10px;
+ 
+ }
+
+.ml-auto{
+  margin-left: auto;
+}
+.navbar-nav{
+  margin:0; 
+  padding: 0;
 }
