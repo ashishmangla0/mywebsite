@@ -1,8 +1,8 @@
 import React,{useState,useCallback} from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import Container from './components/index';
-
+import Container from './components/container';
+import HeroSection from './components/hero';
 import Header from './components/Header';
 import NavbarBrand from './components/navbarBrand';
 import Logo from './components/Logo';
@@ -64,6 +64,13 @@ function App() {
             </span>
         </Container>
       </Header>
+      <HeroSection className="block block--asdfsdf" home>
+        <Container>
+        <img  src="assets/images/hero.png"/>
+        </Container>
+        
+      </HeroSection>
+
       <section>
         <Container>
           this is container <p> 
